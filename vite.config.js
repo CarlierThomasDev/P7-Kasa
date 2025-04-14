@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     open: true,
   },
-  base: '/P7-Kasa/', // Utilisation du nom de votre dépôt
+  // base: '/P7-Kasa/', // Utilisation du nom de votre dépôt
   build: {
     outDir: 'docs',
   },
