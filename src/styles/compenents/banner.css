@@ -1,0 +1,84 @@
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    height: 223px;
+    border: 1px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    opacity: 0.8;
+    background-image: url('../../assets/kasa_home_cover.png');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    position: relative; /* Ajout de position relative pour le pseudo-élément */
+}
+
+.banner-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Le voile couvre tout le conteneur */
+    background-color: rgba(0, 0, 0, 0.6); /* Fond noir semi-transparent (ajustez l'opacité) */
+    border-radius: 25px; /* Pour les coins arrondis */
+    z-index: 1; /* Place le voile au-dessus de l'image */
+}
+
+.banner-text-container {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 143%;
+    letter-spacing: 0%;
+    opacity: 1;
+    position: relative;
+    z-index: 2;
+}
+
+.banner-text{
+    color: white;
+    border-width: 10px solid #000000;
+    top: 241px;
+    left: 373px;
+    text-shadow: #000000 2px 4px 4px;
+    -webkit-text-stroke-color: 2px #000000;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .banner-container{
+        width: 95%;
+        height: 111px;
+        border-width: 1px;
+        margin-left: 20px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+    }
+
+    .banner-text-container {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        vertical-align: bottom; 
+        padding-left: 10px; 
+        position: absolute;
+        left: 10px;
+      
+    }
+    .banner-text{
+        width: 225px;
+        height: 48px;
+        
+        
+    }
+}

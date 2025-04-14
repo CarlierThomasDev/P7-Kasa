@@ -1,0 +1,48 @@
+.nav-container{
+    display: flex;
+    justify-content: flex-end;
+ }
+ 
+ ul{
+     display: flex;
+     justify-content: flex-end;
+     gap: 40px;
+ }
+ 
+ .nav{
+    text-decoration: none;
+ }
+ 
+ a{
+     text-decoration: none;
+     color: black;  
+ }
+ 
+ li{
+     list-style: none;
+   
+     
+     font-family: Montserrat;
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 143%;
+     letter-spacing: 0%;
+     text-align: right;
+     vertical-align: bottom;
+ }
+ 
+ @media (min-width: 320px) and (max-width: 480px) {
+    li {
+        font-size: 10px;
+        margin-right: 0px;
+        
+     }
+    ul{
+        padding-left:0px;
+        gap: 20px;
+    }
+   }
+
+   .nav a.nav-active {
+    text-decoration: underline;
+}

@@ -1,0 +1,84 @@
+.erreur{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.erreur_infos_title{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 288px;
+    line-height: 80%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FF6060;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.erreur_infos_content{
+    position: relative;
+    top:0px;
+    font-family: Montserrat;
+    font-weight: 500px;
+    font-size: 36px;
+    line-height: 143%;
+    vertical-align: bottom;
+    color: #FF6060;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.erreur_infos_return{  
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 143%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    margin-top: 80px;
+    margin-bottom: 100px;    
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .erreur_infos_title{
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 96px;
+        line-height: 143%;
+        letter-spacing: 0%;
+        text-align: center;
+        vertical-align: middle;
+        margin-top: 30px;
+    }
+
+    .erreur_infos_content{
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 143%;
+        letter-spacing: 0%;
+        text-align: center;
+        vertical-align: bottom;
+        width: 220px;
+        height: 52px;
+        margin-top: 30px;
+}
+    .erreur_infos_return{  
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0%;
+        vertical-align: bottom;
+        text-decoration: underline;
+        text-decoration-style: solid;
+        margin-top: 80px;
+        margin-bottom: 90px;    
+    }
+}
