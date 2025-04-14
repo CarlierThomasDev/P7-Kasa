@@ -1,10 +1,13 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
   server: {
-    open: true, // Active l'ouverture automatique du navigateur
+    open: true,
+  },
+  base: '/P7-Kasa/', // Utilisation du nom de votre dépôt
+  build: {
+    outDir: 'docs',
   },
 })
