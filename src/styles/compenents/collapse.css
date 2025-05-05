@@ -31,12 +31,12 @@
 .collapse_content {
     background-color: whitesmoke;
     width: calc(100% - 20px);
-    font-family: regular;
-    font-weight: 200;
-    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
     line-height: 120%;
     letter-spacing: 0; /* Correction : retrait du "%" */
-    color: rgb(68, 65, 65);
+    color: black;
     padding: 10px;
 }
 
@@ -72,7 +72,7 @@
     }
 
     .collapse_content {
-        font-size: 17px;
+        font-size: 12px;
     }
 
     .arrow{
